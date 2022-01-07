@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
+        //add a comment
         val selectedId = binding.tipOptions.checkedRadioButtonId
         val tipPercentage = when (selectedId) {
             R.id.option_twenty_percent -> 0.20
